@@ -11,7 +11,7 @@ def find_calibration_in_line(calib_line):
 
 
 # Main loop
-with open('input-day-1.txt') as file:
+with open('/workspaces/advent-of-code-2023/day-1/input-day-1.txt') as file:
     sum_calibrations = 0
     while True:
         line = file.readline()
